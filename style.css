@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    padding: 5px;
+    margin-top: 80px;
+    margin-left: 260px;
+}
+nav h2{
+    font-weight: bolder;
+    font-size: 3.8rem;
+    text-align: left;
+    text-shadow: 2px 2px 2px orangered;
+}
+#mytask{
+    margin-top: 10px;
+    margin-left: 40%;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    color: black;
+}
+#mytask:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px gray;
+}
+#label{
+    margin-top: 13px;
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+#Box2{
+    margin-top: 20px;
+    margin-left: 260px;
+    font-size: 50px;
+    font-family: 'Claris Sans', sans-serif;     
+}
+.popup{
+    background-color: rgb(244, 226, 229);
+    border: 1px solid gray;
+    height: 250px;
+    width: 450px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    /* display: none; */
+    visibility: hidden;
+    border-radius: 15px;
+}
+.popup h1{
+    font-size: 56px;
+    font-family: 'Claris Sans', sans-serif;    
+}
+#datafill{
+    margin-top: 15px;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+}
+#add{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.5rem;
+    padding: 5px;
+    margin-top: 35px;
+    width: 125px;
+}
+#add:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+#close{
+    width: 125px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.5rem;
+    padding: 5px;
+    margin-top: 35px;
+    margin-left: 45px;
+    /* visibility: visible; */
+}
+#close:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.cards{
+    visibility: hidden;
+    margin-top: -15%;
+    border-radius: 15px;
+    border: 1px  gray;
+    height: 400px;
+    width: 250px;
+    margin-left: 50px;
+    background-color: aliceblue;
+    padding: 5px;
+
+}
+#hrline{
+    height: 5px;
+    background-color: red;
+    border-radius: 15px;
+    border: none;
+    margin-top: 2px;
+}
+#heading{
+    text-align: center;
+}
+/* .bottom{
+    position: fixed;
+    top: 80%;
+    margin-left: 120px;
+} */
+#delt{
+    position: fixed;
+    margin-top: 15%;
+    margin-left: 7%;
+}
+#plus{
+    position: fixed;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+

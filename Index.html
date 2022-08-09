@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link href="http://fonts.cdnfonts.com/css/armwarmer" rel="stylesheet">
+                
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link href="http://fonts.cdnfonts.com/css/claris-sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+                
+                
+                
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- //..................................paramenent.... -->
+    <section>
+        <section>
+            <nav>
+                <h2 id="task"></h2>
+                    <button onclick="showpopup()" id="mytask">
+                        +
+                    </button>    
+                <label id="label">ADD ITEM</label>
+            </nav>
+        </section>
+
+    <div id="Box2"></div>
+
+    <div class="popup">
+        <h1>New Task List</h1>
+        <input type="text" name="name" id="datafill" placeholder="add any task"><br>
+        <button onclick="openCards()" id="add">Add</button>
+        <button onclick="closePopUp()" id="close">Close</button>
+    </div> 
+    
+    <div class="cards">
+        <h3 id="heading"> </h3>
+        <hr id="hrline">
+        <p id="firstTask"></p>
+        <p id="secondTask"></p>
+        <p id="thirdTask"></p>
+        <button onclick="delet()" id="delete">
+            <i style="font-size: 40px; color: red; " id="delt" 
+            class="fa-solid fa-trash-can"></i>
+        </button>
+
+        <button onclick="addTask()" id="addtask">
+            <i style="color: red; font-size: 40px; " id="plus"
+            class="fa-solid fa-circle-plus"></i>
+        </button>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
